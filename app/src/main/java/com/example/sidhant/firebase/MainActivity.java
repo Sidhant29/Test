@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        int fie=0;
         setContentView(R.layout.activity_main);
         String fireToken = FirebaseInstanceId.getInstance().getToken();
         Log.d(TAG, "onCreate: " + fireToken);
